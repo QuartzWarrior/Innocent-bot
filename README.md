@@ -1,5 +1,7 @@
 # Innocent-bot
 
+> **Use at your own risk, I am not responsible for anything that happens to your account.**
+
 A Discord client self-bot for destroying, nuking and causing mischief in servers. 💣
 
 ## Why?
@@ -16,12 +18,13 @@ As of recent, I've seen multiple Discord communities I have been a part of been 
 * `destroy` - deletes everything possible, then bans every member in the server as long as you have permission.
 
 ## Setup
-Download the files for the bot and make sure Python 3.7 is installed.
+Download the files for the bot and make sure Python 3.9 is installed.
 After you have done those steps, simply install the following dependencies:
 
-* discord.py REWRITE
+* nextcord
 
-You can do this by typing `pip install -U git+https://github.com/Rapptz/discord.py@rewrite` into cmd as long as Python is in path.
+(Windows) You can do this by typing `pip3 install -U nextcord` into cmd as long as Python is in path.
+(Linux) You can do this by typing `python3 -m pip install -U nextcord` into console.
 
 After this, open the bot file in an IDE or text editor and input your token and desired prefix.
 
