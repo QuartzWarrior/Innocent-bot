@@ -12,19 +12,26 @@ As of recent, I've seen multiple Discord communities I have been a part of been 
 
 * `kall` - short for kick all, kicks every member in the server as long as you have permission.
 * `ball` - short for ban all, bans every member in the server as long as you have permission.
-* `rall rename_to` - short for rename all, renames every member in the server to the desired rename_to condition as long as you have permission.
+* `rall rename_to` - short for rename all, renames every member in the server to the desired rename_to condition as long
+  as you have permission.
 * `mall message` - short for message all, messages every member in a guild with a message of your choice.
-* `dall condition` - short for delete all, deletes every condition stated. Conditions currently include; `channels`, `roles`, `emojis` and `all`.
+* `dall condition` - short for delete all, deletes every condition stated. Conditions currently include; `channels`
+  , `roles`, `emojis` and `all`.
 * `destroy` - deletes everything possible, then bans every member in the server as long as you have permission.
 
 ## Setup
-Download the files for the bot and make sure Python 3.9 is installed.
+
+Download the files for the bot and make sure Python 3.9 is
+installed. [Windows Installation](https://www.python.org/downloads/windows/)
+| [Linux Installation](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/).
+
 After you have done those steps, simply install the following dependencies:
 
-* nextcord
+* pip
 
-(Windows) You can do this by typing `pip3 install -U nextcord` into cmd as long as Python is in path.
-(Linux) You can do this by typing `python3 -m pip install -U nextcord` into console.
+You can do this by typing `python3 -m pip install -U pip` into console. If you get an error doing this,
+run `python -m ensurepip -U`. Again, if you get an error, download [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+and run that using `python3 get-pip.py`.
 
 After this, open the bot file in an IDE or text editor and input your token and desired prefix.
 
